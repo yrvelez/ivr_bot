@@ -3,7 +3,6 @@ from twilio.twiml.voice_response import VoiceResponse, Say
 from twilio.rest import Client
 import openai
 import requests
-from gtts import gTTS
 import os
 import time 
 
