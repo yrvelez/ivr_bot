@@ -33,5 +33,4 @@ Important: Configure your Twilio webhook to point to your running application's 
 ## Usage
 Call your Twilio phone number.
 The automated survey bot will ask questions about politics.
-Answer the questions.
 The bot will use GPT-3 to generate probing follow-up questions based on your answers.
