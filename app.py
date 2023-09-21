@@ -13,7 +13,7 @@ openai_key = os.environ.get('OPENAI_API_KEY')
 elevenlabs_key = os.environ.get('ELEVENLABS_API_KEY')
 voice_id = os.environ.get('ELEVENLABS_VOICE_ID')
 
-@app.route('/incoming_call', methods=['POST'])
+@app.route('/incoming_call', methods=['GET', 'POST'])
 
 def handle_call():
     response = VoiceResponse()
